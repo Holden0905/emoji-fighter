@@ -45,3 +45,11 @@ button {
 .vs {
     color: red;
 }
+
+.winner {
+    color: gold;
+    font-size: 40px;
+    display: block;
+    margin-top: 10px;
+    text-shadow: 2px 2px 0px black;
+}
