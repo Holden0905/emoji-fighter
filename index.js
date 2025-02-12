@@ -14,7 +14,9 @@ fightButton.addEventListener("click", function() {
     let fighterTwo = fighters[randomIndexTwo]
     
     // Display the matchup
-    stageEl.textContent = `${fighterOne} vs ${fighterTwo}`
+    stageEl.textContent = `${fighterOne} `
+    stageEl.innerHTML += `<span class="vs">vs</span>`
+    stageEl.innerHTML += ` ${fighterTwo}`
     // Challenge:
     // When the user clicks on the "Pick Fighters" button, pick two random 
     // emoji fighters and display them as i.e. "🦀 vs 🐢" in the "stage" <div>.
